@@ -1,4 +1,4 @@
-﻿##################################################
+##################################################
 ### Script : ci.sh (14-10-2017)                ###
 ### CI     : Continious Integration            ###
 ### Target : Tool dev			                     ###
@@ -24,8 +24,8 @@
 
 echo
 echo [ Done ]  Initializing who am I.
-git config --global user.email "sakib.rahman.0000@gmail.cormen"
-git config --global user.name "sakib-rahman-bangladesh"
+git config --global user.email "enamulhaque028@gmail.cormen"
+git config --global user.name "enamulhaque028"
 
 
 ############
@@ -70,16 +70,7 @@ echo
 # 2018.Apr20
 ## ENUM: My first commit at bookbucket: 2018.Apr20
 
-# 2018.Apr26
-## GIVEN tasks to enum
-
-# 2018.Apr28
-## ADD samples files: policy + user agreement
-
-# 2018.May1
-## ASSIGNED task to enum: front-end understanding
-
-git commit -m "ASSIGNED task to enum: front-end understanding"
+git commit -m "DOING"
 
 ############
 # Step: 05 #
@@ -99,7 +90,7 @@ git remote -v
 # Change your remote's URL from SSH to HTTPS with the git remote set-url command.
 echo
 echo [ Done ]  Updating remote URL.
-git remote set-url origin https://github.com/FreshersRepo/bookbucket
+git remote set-url origin https://github.com/enamulhaque028/bookbucket
 ############
 # Step: 07 #
 ############
@@ -118,4 +109,4 @@ echo
 echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git push
 echo
 git push origin master
-git push --all -f https://github.com/FreshersRepo/bookbucket
+git push --all -f https://github.com/enamulhaque028/bookbucket
