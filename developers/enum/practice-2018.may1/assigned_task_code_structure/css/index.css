@@ -1,0 +1,13 @@
+table {
+  display: inline-block;
+  border: 0px solid black;
+  padding: 10px;
+}
+
+th, td {
+  padding: 3px;
+}
+
+input {
+  padding:6px;
+}
