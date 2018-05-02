@@ -1,4 +1,17 @@
-
+<?php
+  // Show Errors
+  error_reporting(E_ALL);
+  ini_set('display_errors','On');
+  // Redirect
+  if (isset($_POST['login'])){
+  	header("Location:controllers/Login.php");
+    die();
+  }
+  if(isset($_POST['register'])){
+  	header("Location:controllers/Registration.php");
+    die();
+  }
+?>
 
 <!DOCTYPE html>
 <html>
@@ -51,5 +64,5 @@
           	<input type = "submit" name = "login" value = "Login" style="border: 2px solid #a1a1a1; border-radius: 20px;">
         </form>
     </div>
-  <div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="000webhost logo" rel="nofollow" target="_blank" href="https://www.000webhost.com/free-website-sign-up?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_campaign=ss-footer_logo&amp;utm_medium=000_logo&amp;utm_content=website"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png" alt="000webhost logo"></a></div></body>
+  </body>
 </html>
